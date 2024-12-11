@@ -314,11 +314,18 @@ li.logo span {
 }
 
 h3 {
-  font-weight: 200;
-  margin-bottom: 60px;
-  margin-top: 0;
-  padding: 30px 40px;
-  text-transform: uppercase;
+  font-weight: 700; /* Make the text bold */
+  text-align: center; /* Center the text horizontally */
+  margin-bottom: 40px; /* Adjust the spacing for better visual balance */
+  margin-top: 20px; /* Reduce top margin for tighter spacing */
+  padding: 20px; /* Adjust padding for more subtle spacing */
+  text-transform: uppercase; /* Keep the text in uppercase */
+  letter-spacing: 1.5px; /* Add spacing between letters for a modern look */
+  font-family: 'Abril Fatface', cursive; /* Use a clean, modern font */
+  background: linear-gradient(to bottom, rgba(250, 209, 231, 0.673), rgba(26, 136, 221, 0.8), rgba(250, 209, 231, 0.673)); /* Add a gradient background */
+  color: white;
+  border-radius: 5px; /* Optional: Add rounded corners for softer styling */
+  box-shadow: 0 2px 5px  rgba(245, 226, 236, 0.673); /* Optional: Add a subtle shadow */
 }
 
 .section {
